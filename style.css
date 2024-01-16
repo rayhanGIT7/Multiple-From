@@ -1,0 +1,48 @@
+  /* form design */
+
+  .div7 {
+    width:400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+.div7 form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+
+ input[type="text"],
+
+ input[type="email"],
+ input[type="number"],
+ input[type="file"],
+ input[type="date"],
+ /* input[type="radio"], */
+ input[type="password"]
+ {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  
+}
+
+
+.div7 button {
+    background-color:orange ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
